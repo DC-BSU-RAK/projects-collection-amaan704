@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="mood_calculator">Mood Calculator</string>
+    <string name="sleep_hours">Sleep Hours</string>
+    <string name="glasses_of_water">Glasses of Water</string>
+    <string name="stress_level">Stress Level (1-10)</string>
+    <string name="calculate_mood">Calculate Mood</string>
+    <string name="instructions">Instructions</string>
+</resources>
