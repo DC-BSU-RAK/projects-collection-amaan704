@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="22dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How To Use"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#1B4332" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add one habit, choose a category, mark it as completed, and check your streak from the home dashboard. You can also save your name and reminder preference in Settings."
+        android:textSize="16sp"
+        android:textColor="#333333"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>

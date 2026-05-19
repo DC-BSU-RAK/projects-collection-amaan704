@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF7F1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Build Your Habit"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#1B4332"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose one habit you want to improve today."
+            android:textSize="16sp"
+            android:textColor="#52796F"
+            android:layout_marginBottom="18dp" />
+
+        <EditText
+            android:id="@+id/habitInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Example: Study 1 hour"
+            android:inputType="text"
+            android:layout_marginBottom="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1B4332" />
+
+        <RadioGroup
+            android:id="@+id/categoryGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="18dp">
+
+            <RadioButton
+                android:id="@+id/healthRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Health" />
+
+            <RadioButton
+                android:id="@+id/studyRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Study" />
+
+            <RadioButton
+                android:id="@+id/lifestyleRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lifestyle" />
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/completedCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Completed today"
+            android:textSize="18sp"
+            android:layout_marginBottom="18dp" />
+
+        <Button
+            android:id="@+id/saveHabitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Habit" />
+
+        <TextView
+            android:id="@+id/savedHabitText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No habit saved yet."
+            android:textSize="18sp"
+            android:textColor="#1B4332"
+            android:background="#D8F3DC"
+            android:padding="18dp"
+            android:layout_marginTop="25dp" />
+
+    </LinearLayout>
+</ScrollView>
